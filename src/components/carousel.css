@@ -1,0 +1,20 @@
+.carousel-container {
+    width: 90%; /* Ajusta el porcentaje según el tamaño deseado */
+    margin: 0 ; /* Centra el carrusel horizontalmente */
+
+}
+
+.slick-slide {
+    padding: 10px;
+}
+
+
+.carousel-container .slick-slide {
+    max-width: 700px; /* Ajusta el ancho máximo de cada slide */
+    margin: 0;
+}
+
+.carousel-container img {
+    width: 100%; /* Asegura que las imágenes ocupen todo el ancho disponible */
+    height: 250px;
+}
