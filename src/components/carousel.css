@@ -18,3 +18,16 @@
     width: 100%; /* Asegura que las imágenes ocupen todo el ancho disponible */
     height: 250px;
 }
+
+
+@media (min-width: 768px) {
+    .carousel-container {
+        width: 90%; /* Ajusta el ancho para pantallas medianas */
+    }
+}
+
+@media (min-width: 1024px) {
+    .carousel-container {
+        width: 90%; /* Ajusta el ancho para pantallas grandes */
+    }
+}

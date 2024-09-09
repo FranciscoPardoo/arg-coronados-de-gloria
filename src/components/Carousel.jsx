@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import CardMap from './CardMap';
 import { Provincia } from '../data/dataProvincias';
 import { Link } from 'react-router-dom';
-import "./carousel.css"
+import "./carousel.css";
 
 const settings = {
     autoplay: true,
@@ -14,19 +14,26 @@ const settings = {
     infinite: true,
     speed: 500,
     slidesToShow: 1,
-    slidesToScroll: 1, 
+    slidesToScroll: 1,
     responsive: [
         {
-            breakpoint: 1020,
+            breakpoint: 1024, // Tablets y laptops
             settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
             }
         },
         {
-            breakpoint: 600,
+            breakpoint: 768, // Tablets pequeñas y dispositivos móviles grandes
             settings: {
-                slidesToShow: 3,
+                slidesToShow: 2,
+                slidesToScroll: 1,
+            }
+        },
+        {
+            breakpoint: 480, // Móviles pequeños
+            settings: {
+                slidesToShow: 1,
                 slidesToScroll: 1,
             }
         }
@@ -35,7 +42,7 @@ const settings = {
 
 function CarouselComponent() {
     return (
-        <div className="carousel-container">
+        <div className="carousel-container max-w-full px-4 sm:px-8 ">
             <Slider {...settings}>
                 {React.Children.toArray(
                     Provincia.map(({ imagen, titulo, idd, info }) => (

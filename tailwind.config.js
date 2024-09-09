@@ -14,6 +14,16 @@ export default {
           dark: '#009eeb',
         },
     },
+    spacing: {
+      '128': '29rem',
+    },
+    screens: {
+      'sm': '540px',   
+      'md': '768px',    
+      'lg': '1024px',   
+      'xl': '1280px',   
+      '2xl': '1536px',  
+    },
     height: {
       '120': '32rem',
     },

@@ -11,7 +11,7 @@ const Provincias = () => {
     const [tooltipPosition, setTooltipPosition] = useState({ x: 0, y: 0 });
 
     return (
-    <div>
+    <div className='hidden lg:block'>
         <div className="grid items-center h-screen relative">
             <ComposableMap
                 className="w-full h-full"

@@ -1,11 +1,11 @@
-import ba from "../assets/obelisco.jpg"
-import mz from "../assets/mendozaa.jpg"
-import pm from "../assets/pm.jpg"
-import cti from "../assets/cataratas.jpg"
-import cor from "../assets/cor.jpg"
-import us from "../assets/ushuaia.jpg"
-import gpm from "../assets/glaciar.jpg"
-import csc from "../assets/cerro-siete-colores.jpg"
+import ba from "../assets/images/obelisco.jpg"
+import mz from "../assets/images/mendozaa.jpg"
+import pm from "../assets/images/pm.jpg"
+import cti from "../assets/images/cataratas.jpg"
+import cor from "../assets/images/cor.jpg"
+import us from "../assets/images/ushuaia.jpg"
+import gpm from "../assets/images/glaciar.jpg"
+import csc from "../assets/images/cerro-siete-colores.jpg"
 
 export const DestinosDestacados = [
     {
